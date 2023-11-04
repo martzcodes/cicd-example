@@ -24,7 +24,6 @@ jobs:
     environment: ${{ inputs.deploy_env }}
     runs-on: ubuntu-latest
     permissions:
-      contents: read
       deployments: write
       id-token: write
     steps:
