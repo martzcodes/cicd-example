@@ -26,7 +26,7 @@ export class CicdExampleStack extends cdk.Stack {
         types: [EndpointType.REGIONAL],
       },
     });
-    api.root.addResource(`piza`).addMethod(`GET`, new LambdaIntegration(fn));
+    api.root.addResource(`pizza`).addMethod(`GET`, new LambdaIntegration(fn));
     api.root.addResource(`soemthing`).addMethod(`GET`, new LambdaIntegration(fn));
   }
 }
