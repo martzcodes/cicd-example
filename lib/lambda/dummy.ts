@@ -1,5 +1,5 @@
 export const handler = () => {
-  console.log('Hello, world!');
+  console.log('Hello, youtube!');
   return {
     statusCode: 200,
     body: JSON.stringify({
