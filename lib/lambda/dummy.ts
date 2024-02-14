@@ -1,6 +1,9 @@
 export const handler = () => {
   console.log('Hello, world!');
   return {
-    statusCode: 400,
+    statusCode: 200,
+    body: JSON.stringify({
+      message: 'Hello, youtube!',
+    }),
   }
 }
